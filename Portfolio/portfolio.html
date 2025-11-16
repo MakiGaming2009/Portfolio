@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>My Portfolio!</title>
+    
+
+    <style>
+        body{
+            background-image: url(Ender\ Dragon\ Fight.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+           background-position:center 46%;
+           background-color: rgb(11, 15, 42);
+          
+        }
+        h1{
+            text-shadow: 0 0 5px rgb(5, 10, 250);
+             position:absolute;
+            right: 30%;
+            top:45%;
+           font-size: 5em;
+           color: rgb(50, 60, 80, 0.89);
+            -webkit-text-stroke: 0.1px grey;
+            font-family: fantasy ;
+            letter-spacing: 10px;
+        }
+        h2{
+             text-shadow: 0 0 5px rgb(0, 108, 248);
+             position:absolute;
+            right: 60%;
+            top:100%;
+           font-size: 3em;
+           color: rgb(245, 245, 245);
+            -webkit-text-stroke: 0.1px grey;
+            letter-spacing: 3px;
+
+        }
+        h3{
+            text-shadow: 0 0 5px rgb(0, 108, 248);
+             position:absolute;
+            left: 13%;
+            top:120%;
+           font-size: 3em;
+           color: rgb(245, 245, 245);
+            -webkit-text-stroke: 0.1px grey;
+            letter-spacing: 3px;
+
+
+        }
+        .button1{
+                border: none;
+                width: 15em;
+                height: 6em;
+                border-radius: 8%;
+                background-color:rgb(3, 3, 138);
+                text-align:  center;
+                text-shadow: 0 0 200px deeppink;
+                animation: popOut 0.6s ease-in-out;
+                transform-origin: center;
+                transition: all 0.4s ease-out;
+                cursor: pointer;
+                color: white;
+
+                
+
+
+        }
+        button:hover{
+            animation: popOut 0.6s ease-in;
+            
+        }
+        @keyframes popOut{
+            0%{
+                transform: scale(0);
+                opacity: 0;
+            }
+            80%{
+                transform: scale(1.15);
+                opacity: 1;
+            }
+            100%{
+                transform: scale(1);
+            }
+
+
+        }
+        
+        
+        p{
+            text-shadow: 0 0 3px rgb(0, 108, 248);
+            -webkit-text-stroke: 0.2px grey;
+            letter-spacing: normal;
+            color: white;
+            font-size:1.6em ;
+        }
+    </style>
+
+</head>
+    <body>
+    <section>
+        <h1>Alan's Portfolio</h1>
+        <h2>Quick About Me</h2>
+        <p style=" position: absolute;
+            left: 13%;
+            top: 110%;">I’m Alan, a game and web developer passionate about turning ideas into creative projects.<br> I’ve been gaming ever since I was a kid, and when I’m not coding, you can usually find me on Summoner’s Rift.<br> — check out my work down below!</p>
+    </section>
+    
+    
+    <section>
+        <img src="">
+        <h3>This is one of my first ever web pages created</h3> <!--ADD A LINK TO YOUR YOUTUBE-->
+        <button class="button1"
+        onclick="window.open('file:///C:/Users/Home/Desktop/HTML/Pekara/Pekara.html')"
+       onmouseover="this.style.backgroundColor = 'rgb(5, 10, 250)'"
+        onmouseout="this.style.backgroundColor= 'rgb(3, 3, 138)'"
+        style="position: absolute; top: 133%; left: 13%;"
+        
+        > click me!</button>
+        <p style="position: absolute; top: 130%; left: 25%;">Clicking this button will take you to one of my first web projects — a bakery website I built as a practice project. I created it to experiment with layout, styling, and basic interactivity, and it’s a fun glimpse into how I started learning web development.<br> Even though it’s simple, it taught me a lot about HTML, CSS, and making a site look appealing.</p>
+    </section>
+
+
+    <section>
+        <img src="">
+
+
+
+    </section>
+
+
+
+    </body>
+
+
+
+</html>
